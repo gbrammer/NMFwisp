@@ -27,7 +27,7 @@ dependencies = [
 dynamic = ["version"]
 
 [tool.setuptools_scm]
-write_to = "src/version.py"
+write_to = "nmfwisp/version.py"
 
 [project.urls]
 Homepage = "https://github.com/zihaowu-astro/nmfwisp"
@@ -44,3 +44,8 @@ test = [
 
 [tool.setuptools]
 packages = ["nmfwisp"]
+
+[tool.pytest]
+minversion = 5.0
+norecursedirs = "build docs/_build"
+testpaths = "nmfwisp/tests"
