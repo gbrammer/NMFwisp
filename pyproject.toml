@@ -46,5 +46,11 @@ test = [
 packages = ["nmfwisp"]
 
 [tool.pytest]
-norecursedirs = "build docs/_build"
-testpaths = "nmfwisp/tests"
+norecursedirs = [
+    "build",
+    "doc",
+    "developer"
+]
+testpaths = [
+    "nmfwisp/tests"
+]
