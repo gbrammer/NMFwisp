@@ -1,9 +1,10 @@
 data/
 
 nmfwisp/version.py
-nmfwisp/__pycache__/*
 
 __pycache__/*
+nmfwisp/__pycache__/*
+nmfwisp/tests/__pycache__/*
 
 nmfwisp.egg-info/*
 build/*
