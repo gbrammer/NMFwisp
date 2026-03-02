@@ -43,4 +43,4 @@ test = [
 ]
 
 [tool.setuptools]
-packages = ["src"]
+packages = ["nmfwisp"]

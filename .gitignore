@@ -1,6 +1,6 @@
 data/
 
-src/version.py
+nmfwisp/version.py
 
 __pycache__/*
 
