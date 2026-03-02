@@ -46,6 +46,5 @@ test = [
 packages = ["nmfwisp"]
 
 [tool.pytest]
-minversion = 5.0
 norecursedirs = "build docs/_build"
 testpaths = "nmfwisp/tests"
